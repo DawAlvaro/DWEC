@@ -1,1 +1,1 @@
-# DWEC
+# Desarrollo de aplicaciones Web Entorno Cliente
