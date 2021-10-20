@@ -41,3 +41,27 @@ function operadoresasignacion(){
     console.log(resultado1 = resultado2);
 
 }
+
+const divisionrecursiva=() =>{
+    let count = 0;
+    const recursivoDividir = (numero1, numero2) => {
+        let numeroResultado = numero1 - numero2;
+        if (numeroResultado < 0){
+            return 0;
+        } else{
+            count++;
+            recursivoDividir(numeroResultado, numero2);
+        }
+    }
+    let num1 = prompt('Introduce un numero');
+    let num2 = prompt('Introduce un numero');
+    recursivoDividir(num1, num2);
+    console.log('$(count)');
+}
+
+function expRegPass(){
+    let pass = /^\d{4}$/;
+    let test = 1234;
+
+    
+}
